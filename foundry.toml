@@ -1,7 +1,7 @@
 [profile.default]
 src = "src"
 out = "out"
-libs = ["lib"]
+libs = ["node_modules", "lib"]
 ffi = true
 ast = true
 build_info = true
