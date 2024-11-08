@@ -4,7 +4,7 @@ import "forge-std/Script.sol";
 import "../src/ContractA.sol";
 import "openzeppelin-foundry-upgrades/Upgrades.sol";
 
-//forge script script/DeployContractA.s.sol --rpc-url algen2_test --private-key $ALGPRIVATEKEY --ffi --broadcast
+//forge script script/DeployContractA.s.sol --rpc-url localhost --private-key $LOCALPRIVATEKEY --ffi --broadcast
 contract ContractAScript is Script {
     function setUp() public {}
 
