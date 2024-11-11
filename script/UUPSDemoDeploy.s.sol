@@ -4,6 +4,7 @@ import "forge-std/Script.sol";
 import "../src/UUPSTest1.sol";
 import "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol";
 
+//forge script script/UUPSDemoDeploy.s.sol --rpc-url localhost --private-key $LOCALPRIVATEKEY --ffi --broadcast --force
 contract UUPSDemoDeploy is Script {
     function run() public {
         uint256 deployerPrivateKey = vm.envUint("LOCALPRIVATEKEY");

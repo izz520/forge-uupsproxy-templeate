@@ -5,6 +5,7 @@ import "../src/UUPSTest1.sol";
 
 // import "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol";
 
+//forge script script/UUPSDemoUpgrade.s.sol --rpc-url localhost --private-key $LOCALPRIVATEKEY --ffi --broadcast --force
 contract UUPSDemoUpgrade is Script {
     address proxyAddress = 0xA51c1fc2f0D1a1b8494Ed1FE312d7C3a78Ed91C0;
 
